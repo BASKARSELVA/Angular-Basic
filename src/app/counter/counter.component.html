@@ -1,0 +1,14 @@
+<h1>Child Component :</h1>
+<p> counter works!</p>
+
+<div>
+    Received User: {{receivedUser}}
+    </div>  
+
+    <h1>
+        Child To Parent
+    </h1>
+
+    <label>Update User:</label>
+    <input type="text" (input)="dynamicUpdateUser($event)">
+    <div>Updated Child User : {{dynamicUserName}}</div>
